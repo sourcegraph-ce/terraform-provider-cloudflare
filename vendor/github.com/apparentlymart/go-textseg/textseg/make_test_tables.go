@@ -17,7 +17,7 @@ import (
 	"flag"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"os"
 	"os/exec"
