@@ -12,7 +12,7 @@ import (
 	"bytes"
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"strings"
 )

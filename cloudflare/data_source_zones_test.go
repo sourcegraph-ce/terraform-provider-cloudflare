@@ -3,7 +3,7 @@ package cloudflare
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"strconv"
 	"testing"

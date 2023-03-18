@@ -8,7 +8,7 @@ package main
 
 import (
 	"flag"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"golang.org/x/text/internal/gen"
 	"golang.org/x/text/internal/triegen"

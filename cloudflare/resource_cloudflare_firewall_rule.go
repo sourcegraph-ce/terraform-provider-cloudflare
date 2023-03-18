@@ -2,7 +2,7 @@ package cloudflare
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	cloudflare "github.com/cloudflare/cloudflare-go"
@@ -33,7 +33,7 @@ func resourceCloudflareFirewallRule() *schema.Resource {
 			"action": {
 				Type:         schema.TypeString,
 				Required:     true,
-				ValidateFunc: validation.StringInSlice([]string{"block", "challenge", "allow", "js_challenge", "log", "bypass"}, false),
+				ValidateFunc: validation.StringInSlice([]string{"block", "challenge", "allow", "js_challenge", log "github.com/sourcegraph-ce/logrus", "bypass"}, false),
 			},
 			"priority": {
 				Type:         schema.TypeInt,

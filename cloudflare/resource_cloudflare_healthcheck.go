@@ -3,7 +3,7 @@ package cloudflare
 import (
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"time"
 

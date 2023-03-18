@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"go/format"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"regexp"
 )
