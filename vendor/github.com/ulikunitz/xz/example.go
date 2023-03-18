@@ -9,7 +9,7 @@ package main
 import (
 	"bytes"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	"github.com/ulikunitz/xz"

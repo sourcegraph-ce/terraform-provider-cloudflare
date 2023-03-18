@@ -3,7 +3,7 @@ package cloudflare
 import (
 	"fmt"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sort"
 	"strconv"
 	"strings"

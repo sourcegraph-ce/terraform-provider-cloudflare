@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"math"
 	"net/http"
 	"net/url"
